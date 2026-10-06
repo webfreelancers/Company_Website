@@ -1,0 +1,18 @@
+{
+  "name": "web-freelancers-chat-server",
+  "version": "2.0.0",
+  "description": "Real-time AI and Live Operator Chat Server for Web Freelancers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "author": "Web Freelancers",
+  "license": "ISC"
+}
